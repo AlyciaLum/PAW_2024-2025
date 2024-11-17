@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin:0;
+  font: 14px "Arial";
+  text-align: center;
+}
+
+nav{
+  padding: 10px;
+  background-color: lavender;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+div{
+  background-color: aliceblue;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+section{
+  background-color: aliceblue;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+input, textarea{
+  margin: 10px;
+}
+
+footer{
+  padding: 10px;
+  background-color: lavender;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+a {
+  color: #00B7FF;
+  padding: 10px;
+}
