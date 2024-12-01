@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/static/style.css' />
+</head>
+<body>
+
+<%- include('parts/nav'); %>
+<div>
+    <h1><%= title %></h1>
+    <form>
+        <input type="text" placeholder="Imię"><br>
+        <input type="text" placeholder="Nazwisko"><br>
+        <input type="email" placeholder="Email"><br>
+        <textarea placeholder="treść wiadomości" cols="21" rows="4"></textarea><br>
+    </form>
+</div>
+<%- include('parts/footer'); %>
+</body>
+</html>
